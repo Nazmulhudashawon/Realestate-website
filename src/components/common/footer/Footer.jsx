@@ -21,7 +21,7 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='../images/logo-light.png' alt='' />
+              <h1>MadeUP</h1>
               <h2>Do You Need Help With Anything?</h2>
               <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
 
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
+        <span>© 2022 MadeUP. Designd By Nazmul Huda </span>
       </div>
     </>
   )
