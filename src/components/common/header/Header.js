@@ -11,7 +11,7 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div>
-           <h1>MadeUP</h1>
+           <h1>Next <span style={{color:""}}> Home</span></h1>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
