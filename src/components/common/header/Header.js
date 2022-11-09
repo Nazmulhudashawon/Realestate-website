@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className='container flex'>
+        <div className='container d-flex justify-content-between align-items-center'>
           <div>
-           <h1>Next <span style={{color:""}}> Home</span></h1>
+           <h2>Next <span style={{color:""}}> Home</span></h2>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -22,7 +22,7 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className='button flex'>
+          <div className='button mb-3'>
       
             <button className='btn1'>
               <i className='fa fa-sign-out'></i> Sign In

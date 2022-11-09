@@ -1,10 +1,11 @@
 import React from "react"
 import { list } from "../../data/Data"
+import "./card.css"
 
 const RecentCard = () => {
   return (
     <>
-      <div className='content grid3 mtop'>
+      <div className='content grid3 mtop '>
         {list.map((val, index) => {
           const { cover, category, location, name, price, type } = val
           return (
